@@ -345,7 +345,26 @@ a {
     margin-top: -30px;
     margin-bottom: 40px;
 }
+.project-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+}
 
+.project-links a {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid #30343b;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.project-links a:hover {
+    border-color: #c8ff3d;
+    color: #c8ff3d;
+}
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
